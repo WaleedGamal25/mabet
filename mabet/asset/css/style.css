@@ -1,0 +1,643 @@
+@font-face {
+    font-family: araboto-medium;
+    src: url(../Araboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: araboto-normal;
+    src: url(../Araboto-Normal.ttf);
+}
+
+.fontAwesome {
+    font-family: araboto-medium, 'FontAwesome';
+}
+
+body,
+html {
+    font-family: araboto-medium;
+}
+
+.container-fluid {
+    max-width: 1800px;
+}
+
+.container {
+    max-width: 1300px;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    font-size: 18px;
+    color: #888888;
+    font-weight: 400;
+    font-family: araboto-normal !important;
+}
+
+.title {
+    font-size: 36px;
+    color: #000000;
+    font-weight: 400;
+    margin-bottom: 20px
+}
+
+.btn {
+    border-radius: 30px;
+    padding: 10px 25px
+}
+
+.btn-mabet {
+    background: #3FAE56;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 25px !important
+}
+
+
+/* Start Header */
+
+header {
+    padding: 25px 0 10px;
+}
+
+header .logo {
+    width: 150px;
+}
+
+header .dropdown-toggle::after {
+    display: none !important;
+}
+
+header .dropdown a#navbarDropdownMenuLink {
+    border: 1px solid #DDD;
+    display: flex;
+    align-items: center;
+    padding: 2px 10px;
+    border-radius: 30px;
+    position: relative;
+    top: 3px
+}
+
+header .dropdown a#navbarDropdownMenuLink i {
+    padding: 0 8px;
+    font-size: 20px;
+    color: black
+}
+
+header .hide-desktop {
+    display: none;
+}
+
+
+/* End Header */
+
+
+/* Start Home-banner */
+
+.home-banner {}
+
+.home-banner .banner-background {
+    background: url(../images/header.png) no-repeat center center;
+    background-size: cover;
+    border-radius: 30px
+}
+
+.home-banner .content {
+    padding: 130px 100px
+}
+
+.home-banner h1 {
+    color: white;
+    font-size: 64px;
+    max-width: 900px;
+    line-height: 1.5;
+}
+
+.home-banner .inline-btns {
+    width: fit-content;
+    background: white;
+    border-radius: 30px;
+    padding: 7px;
+    margin: 50px 0;
+    display: flex
+}
+
+
+/* End Home-banner */
+
+
+/* Start data-carousel */
+
+.data-carousel {
+    padding: 30px 0
+}
+
+.data-carousel #owl-demo .item h1 {
+    width: 90%;
+    height: auto;
+    font-size: 20px;
+    align-items: center;
+}
+
+.data-carousel .new-mabet {
+    background: #3FAE56;
+    color: white;
+    border-radius: 30px;
+    display: inline-block;
+    /* width: fit-content; */
+    padding: 7px 12px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.data-carousel .new-mabet img {
+    width: 19px;
+    margin-left: 2px;
+    position: relative;
+    /* top: 2px; */
+    display: inline-block;
+}
+
+.data-carousel #owl-demo .item {
+    padding: 40px 0;
+}
+
+.data-carousel .progress {
+    background: #DDD;
+    padding: 0;
+    margin: 0;
+    height: 5px;
+}
+
+.data-carousel .slide-progress {
+    width: 0;
+    max-width: 100%;
+    height: 4px;
+    background: #3FAE56;
+}
+
+.data-carousel .owl-dots {
+    display: none;
+}
+
+.data-carousel .owl-theme .owl-nav {
+    margin-top: 10px;
+    position: absolute;
+    left: 0;
+    top: 30px;
+}
+
+.data-carousel .owl-theme .owl-nav button {
+    background: none !important;
+    font-size: 30px !important;
+    margin: 0 20px;
+    color: black !important
+}
+
+.data-carousel .mob-progress {
+    display: none
+}
+
+
+/* End data-carousel */
+
+
+/* Start skn-order */
+
+.skn-order {
+    padding: 50px 0
+}
+
+.skn-order .content {
+    background: #FAFAFA;
+    max-width: 300px;
+    padding: 20px 0;
+    box-shadow: 0 0 5px 1px #DDD;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+.skn-order p {
+    margin: 0 !important;
+}
+
+.skn-order .main-row {
+    margin: 50px 0
+}
+
+.skn-order .main-row p {
+    margin: 0 !important;
+    padding: 0 30px;
+}
+
+.skn-order select {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    font-size: 25px;
+    color: black;
+    margin: 0 !important;
+    padding: 0 30px !important;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.skn-order select option {
+    font-size: 20px !important;
+    padding-right: 20px !important
+}
+
+.skn-order .content .choose {
+    display: flex;
+    align-items: center;
+    position: relative
+}
+
+.skn-order .content .choose i {
+    font-size: 25px;
+    position: relative;
+    left: 30px;
+    z-index: 0;
+}
+
+.skn-order button {
+    background: #3FAE56;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 20px 10px;
+}
+
+
+/* End skn-order */
+
+
+/* Start nearby-mabeet */
+
+.nearby-mabeet {
+    padding: 40px 0
+}
+
+.nearby-mabeet .card-title {
+    margin: 0
+}
+
+.nearby-mabeet .card {
+    border: none;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    border-radius: 20px;
+    margin-bottom: 40px
+}
+
+.nearby-mabeet .card .top-content {
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.nearby-mabeet .card img {
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.nearby-mabeet .card:hover img {
+    transform: scale(1.15);
+}
+
+.nearby-mabeet .card .card-title {
+    color: black
+}
+
+
+/* End nearby-mabeet */
+
+
+/* two-cities */
+
+.two-cities {
+    padding: 50px 0
+}
+
+.two-cities .content {
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 500px;
+    margin-bottom: 30px
+}
+
+.two-cities .content h2 {
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+
+.two-cities .content:hover h2 {
+    transform: scale(1.15);
+}
+
+
+/* two-cities */
+
+
+/* Footer */
+
+footer {
+    background: #F9F9F9;
+    padding: 50px 0 30px
+}
+
+footer .social-media a {
+    display: block;
+    background: #3FAE56;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out
+}
+
+footer .social-media a i {
+    color: white;
+    font-size: 18px
+}
+
+footer .social-media a:hover {
+    transform: scale(1.12);
+}
+
+footer .subscribe {
+    position: relative;
+}
+
+footer .subscribe input {
+    padding: 30px;
+    border-radius: 30px;
+    background: #F0F1F2;
+    border: none
+}
+
+footer .subscribe button {
+    position: absolute;
+    left: 10px;
+    top: 7px;
+    background: #3FAE56;
+    color: white;
+    padding: 10px 25px !important
+}
+
+footer .title-foot {
+    font-size: 20px;
+    margin-bottom: 30px
+}
+
+footer .group {
+    margin-top: 20px
+}
+
+footer .links {
+    margin-top: 30px
+}
+
+footer .links a {
+    font-size: 18px;
+    color: #888888;
+    font-weight: 400;
+    font-family: araboto-normal !important;
+    margin-top: 20px;
+    display: block;
+    transition: all 0.1s ease-in-out;
+}
+
+footer .links a:hover {
+    color: black
+}
+
+footer .copyright {
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+
+/* Footer */
+
+
+/* product-gallery */
+
+.product-gallery .box {
+    border: 1px solid #DDD;
+    border-radius: 20px;
+    padding: 20px
+}
+
+.product-gallery small {
+    color: #777
+}
+
+.product-gallery .num {
+    color: #777
+}
+
+.product-gallery .box .options a {
+    background: #F9F9F9;
+    padding: 20px;
+    border-radius: 30px;
+    display: block;
+    font-size: 14px;
+    color: black
+}
+
+.fotorama__wrap.fotorama__wrap--css3.fotorama__wrap--slide.fotorama__wrap--toggle-arrows.fotorama__wrap--no-shadows {
+    width: 100% !important
+}
+
+.product-gallery .box h1 {
+    font-size: 22px;
+    max-width: 450px
+}
+
+.product-gallery .box h3 {
+    font-size: 14px;
+    color: #9B9B9B
+}
+
+.product-gallery .box button {
+    background: #3FAE56;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 20px 10px;
+}
+
+.product-gallery .box .currency {
+    color: #777
+}
+
+.product-gallery .box .left-ico {
+    background: #DDD;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.product-gallery .box .contact-product a {
+    display: block;
+    background: #3FAE56;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+    color: white;
+    font-size: 20px
+}
+
+.product-gallery .box-services h6 {
+    margin: 0
+}
+
+#summary {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+#summary a {
+    color: #3FAE56
+}
+
+#summary p.collapse:not(.show) {
+    height: 58px !important;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+#summary p.collapsing {
+    min-height: 58px !important;
+}
+
+#summary a.collapsed:after {
+    content: '+ إقرأ المزيد';
+}
+
+#summary a:not(.collapsed):after {
+    content: '-';
+    font-size: 42px;
+    background: #3FAE56;
+    color: white;
+    display: block;
+    padding: 0px;
+    height: 30px;
+    width: 59px;
+    line-height: 20px;
+    text-align: center;
+    float: left
+}
+
+.responsive-map {
+    overflow: hidden;
+    position: relative;
+    height: 300px;
+    border-radius: 30px;
+    margin-bottom: 30px
+}
+
+.responsive-map iframe {
+    left: 0;
+    top: 0;
+    height: 300px;
+    width: 100%;
+    position: absolute;
+}
+
+
+/* product-gallery */
+
+
+/* related-mabet */
+
+.related-mabet {
+    padding: 50px 0
+}
+
+.related-mabet .card {
+    border-radius: 10px;
+}
+
+.related-mabet h6 {
+    font-size: 14px
+}
+
+.related-mabet h4 {
+    font-size: 22px;
+}
+
+.related-mabet small {
+    color: #777;
+    font-size: 12px;
+}
+
+.related-mabet .triangle-up {
+    background: #FDF6EB;
+    text-align: center;
+    padding: 1px 5px 7px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.related-mabet .alert-discount {
+    font-size: 10px;
+    text-align: center;
+}
+
+.related-mabet .triangle-up:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 20px solid #FDF6EB;
+    position: absolute;
+    top: -10px;
+    left: 0
+}
+
+.related-mabet .fotorama__nav-wrap {
+    position: absolute;
+    bottom: 0
+}
+
+.related-mabet .top-data {
+    position: relative
+}
+
+.related-mabet .overlay-top-data {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    z-index: 99;
+}
+
+
+/* related-mabet */
