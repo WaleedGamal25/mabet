@@ -36,9 +36,11 @@
                                 <i class="fa fa-bars"></i> <img src="asset/images/profile.png" width="40" height="40" class="rounded-circle">
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Dashboard</a>
-                                <a class="dropdown-item" href="#">Edit Profile</a>
-                                <a class="dropdown-item" href="#">Log Out</a>
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal">إضافة حساب</a>
+                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#staticBackdrop">التفعيل</a>
+                                <a class="dropdown-item" href="#">تسجيل الدخول</a>
+
+                                <a class="dropdown-item" href="#">الملف الشخصي</a>
                             </div>
                         </li>
                     </ul>
@@ -52,6 +54,73 @@
             </div>
         </div>
     </header>
+
+
+
+
+    <!-- Modal -->
+    <div class="mabet-modal modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <button type="button" class="close text-right pull-right pr-3 pt-2" style="width:fit-content" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                <div class="modal-body">
+                    <img class="img-fluid d-block modal-logo" src="asset/images/logo-login.png">
+                    <form>
+                        <input type="text" class="form-control mb-2" placeholder="الإسم بالكامل">
+                        <input type="text" class="form-control mb-2" placeholder="رقم الهاتف">
+                        <input type="email" class="form-control mb-2" placeholder="البريد الإلكتروني">
+                        <input type="password" class="form-control mb-2" placeholder="كلمة المرور">
+                        <small class="d-block mb-3">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها.</small>
+                        <button class="btn btn-create form-control">إنشاء حساب جديد</button>
+
+                    </form>
+                    <hr class="mt-3 d-block">
+                    <h6 class="choose-register">أو</h6>
+                    <a class="btn bordered-btn form-control">تسجيل الدخول</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Verfication modal -->
+
+
+
+
+    <!-- Modal -->
+    <div class="mabet-modal modal fade" id="staticBackdrop" tabindex="-1" aria-labelledby="exampleModalverfication" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <div class="modal-body">
+                    <img class="img-fluid d-block modal-logo" src="asset/images/logo-login.png">
+                    <form action="#" class="verfication-form">
+                        <h4 class="text-center mb-4">Enter your code</h4>
+                        <div class="d-flex mb-3">
+                            <input type="tel" maxlength="1" pattern="[0-9]" class="form-control">
+                            <input type="tel" maxlength="1" pattern="[0-9]" class="form-control">
+                            <input type="tel" maxlength="1" pattern="[0-9]" class="form-control">
+                            <input type="tel" maxlength="1" pattern="[0-9]" class="form-control">
+                        </div>
+                        <button type="submit" class="btn btn-create">تفعيل</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Verfication modal -->
+
+
+
+
+
 
     <!-- End Header -->
 
