@@ -46,6 +46,10 @@ input {
     margin-top: 10px
 }
 
+.verfication-form {
+    direction: ltr !important;
+}
+
 .verfication-form .form-control {
     display: block;
     height: 80px;
@@ -55,8 +59,12 @@ input {
     min-width: 0;
 }
 
-.verfication-form .form-control:last-child {
-    margin-right: 0;
+.breadcrumb-item a {
+    color: black !important
+}
+
+.breadcrumb-item.active a {
+    color: #A3A3A3 !important
 }
 
 .choose-register {

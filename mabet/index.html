@@ -100,13 +100,15 @@
                 <div class="modal-body">
                     <img class="img-fluid d-block modal-logo" src="asset/images/logo-login.png">
                     <form action="#" class="verfication-form">
-                        <h4 class="text-center mb-4">Enter your code</h4>
+                        <h6 class="text-center mb-4">لقد أرسلنا كود التفعيل SMS علي الرقم التالي</h6>
                         <div class="d-flex mb-3">
-                            <input type="tel" maxlength="1" pattern="[0-9]" class="form-control">
-                            <input type="tel" maxlength="1" pattern="[0-9]" class="form-control">
-                            <input type="tel" maxlength="1" pattern="[0-9]" class="form-control">
-                            <input type="tel" maxlength="1" pattern="[0-9]" class="form-control">
+                            <input id="myTextInput" checked selected type="tel" maxlength="1" pattern="[0-9]" class="form-control verfication-input">
+                            <input type="tel" maxlength="1" pattern="[0-9]" class="form-control verfication-input">
+                            <input type="tel" maxlength="1" pattern="[0-9]" class="form-control verfication-input">
+                            <input type="tel" maxlength="1" pattern="[0-9]" class="form-control verfication-input">
                         </div>
+                        <h6 class="text-center mb-4">إعادة إرسال الرمز بعد 40</h6>
+
                         <button type="submit" class="btn btn-create">تفعيل</button>
                     </form>
                 </div>
