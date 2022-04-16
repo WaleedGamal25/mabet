@@ -65,6 +65,23 @@
         margin-top: 20px;
         text-align: center;
     }
+    .profile-header .btn-profile {
+        float: none;
+        text-align: center;
+        margin: 30px auto 0;
+        width: fit-content;
+    }
+    .profile .left-data {
+        float: none;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .profile .pt-desktop {
+        padding-top: 20px;
+    }
+    .profile .pt-mob {
+        padding-top: 20px;
+    }
 }
 
 @media (max-width:991px) {

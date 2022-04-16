@@ -837,3 +837,86 @@ footer .copyright {
 .qty input:disabled {
     background-color: white;
 }
+
+
+/* profile */
+
+.profile-header {
+    padding: 50px 0
+}
+
+.profile-header .content {
+    background: #fafafa;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.profile-header .btn-profile {
+    float: left;
+}
+
+.profile .nav-item {
+    width: 25%;
+    text-align: center;
+}
+
+.profile .nav-item .nav-link {
+    transition: all 0.2s ease-in-out;
+    border: none;
+    color: #333
+}
+
+.profile .availability-tit {
+    padding-right: 15px;
+    position: relative;
+}
+
+.profile .availability-tit:before {
+    content: "";
+    width: 10px;
+    height: 15px;
+    background: #3FAE56;
+    position: absolute;
+    right: 0px;
+    top: 2px;
+    border-radius: 5px;
+}
+
+.profile .left-data {
+    float: left;
+    text-align: left;
+}
+
+.profile .heart-icon {
+    background: #fafafa;
+    font-size: 18px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.profile .arrow-icon {
+    background: #3FAE56;
+    color: white;
+    font-size: 25px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.profile .nav-item .nav-link.active,
+.profile .nav-item .nav-link:hover {
+    border: none;
+    border-bottom: 5px solid #3FAE56;
+}
+
+.profile .pt-desktop {
+    padding-top: 40px;
+}
+
+
+/* profile */
