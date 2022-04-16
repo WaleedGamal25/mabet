@@ -3,12 +3,21 @@
         padding: 10px 3px;
         font-size: 15px;
     }
+    .qty {
+        display: flex;
+    }
     .skn-order .right-row {
         margin-bottom: 30px
     }
     .title {
-        font-size: 32px;
+        font-size: 30px;
         text-align: center;
+    }
+    .mabet-form .title {
+        text-align: right !important;
+    }
+    .header-page h1 {
+        font-size: 30px;
     }
     .two-cities .content {
         height: 300px;

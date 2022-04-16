@@ -17,6 +17,12 @@ html {
     font-family: araboto-medium;
 }
 
+.box {
+    border: 1px solid #DDD;
+    border-radius: 20px;
+    padding: 20px
+}
+
 input {
     text-align: right !important
 }
@@ -703,3 +709,130 @@ footer .copyright {
 
 
 /* related-mabet */
+
+
+/* header-page */
+
+.header-page {
+    background: url(../images/header-page.png) no-repeat center center;
+    background-size: cover;
+    padding: 50px 0;
+    border-radius: 10px;
+    margin-bottom: 40px
+}
+
+.header-page h1,
+.header-page h5 {
+    color: white !important
+}
+
+
+/* header-page */
+
+
+/* mabet-form */
+
+.mabet-form input,
+.mabet-form select {
+    margin-bottom: 20px;
+    background: #fafafa;
+    border: none;
+    height: 60px;
+}
+
+.mabet-form .title {
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.mabet-form section {
+    margin-bottom: 20px
+}
+
+.mabet-form .location {
+    border-radius: 20px;
+}
+
+.mabet-form .box {
+    margin-bottom: 20px
+}
+
+.mabet-form textarea {
+    height: 200px;
+    resize: none;
+    background: #fafafa;
+    border: none;
+    padding: 20px
+}
+
+
+/* mabet-form */
+
+.qty {
+    text-align: center !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #DDD;
+    border-radius: 10px;
+}
+
+.qty .count {
+    height: 20px;
+    color: #000;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 30px;
+    padding: 0 2px;
+    margin: 0;
+    width: 100%;
+    text-align: center !important;
+}
+
+.count-clicked {
+    margin-left: 12px !important
+}
+
+.qty .plus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    font: 20px/1 Arial, sans-serif;
+    text-align: center;
+}
+
+.qty .minus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    font: 20px/1 Arial, sans-serif;
+    text-align: center;
+    background-clip: padding-box;
+}
+
+
+/*Prevent text selection*/
+
+.qty span {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.qty input {
+    border: 0;
+    width: 2%;
+}
+
+.qty input::-webkit-outer-spin-button,
+.qty input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.qty input:disabled {
+    background-color: white;
+}
