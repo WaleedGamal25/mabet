@@ -789,6 +789,7 @@ footer .copyright {
     margin: 0;
     width: 100%;
     text-align: center !important;
+    background: none;
 }
 
 .count-clicked {
