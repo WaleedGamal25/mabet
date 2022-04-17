@@ -82,6 +82,12 @@
     .profile .pt-mob {
         padding-top: 20px;
     }
+    .payment-section .reverse-row {
+        flex-direction: column-reverse;
+    }
+    .payment-section .main-content {
+        margin-bottom: 30px
+    }
 }
 
 @media (max-width:991px) {

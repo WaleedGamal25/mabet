@@ -920,3 +920,78 @@ footer .copyright {
 
 
 /* profile */
+
+.payment-section {
+    padding: 50px 0
+}
+
+.payment-section .btn {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 50px;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 10px !important;
+}
+
+.payment-section .custom-radio .custom-control-label::before {
+    margin-top: 22px;
+}
+
+.payment-section .custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #3FAE56;
+    background-color: #3FAE56;
+}
+
+.payment-section .main-content {
+    max-width: 300px;
+    margin: 0 auto
+}
+
+.payment-section .img-content {
+    background: #400700;
+    padding: 100px 20px
+}
+
+.payment-section .bottom-content {
+    background: #0D1218;
+    color: white;
+    padding: 10px 20px 30px
+}
+
+.payment-section .bottom-content h5 {
+    margin: 0;
+    text-align: right;
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+
+.payment-section label {
+    text-align: right !important;
+}
+
+.payment-section .form-group input {
+    height: 50px;
+}
+
+.invoice thead {
+    background: #fafafa;
+}
+
+.invoice .top-table tbody {
+    background: #fafafa;
+}
+
+.invoice .result-table tbody {
+    background: #fafafa;
+}
+
+.invoice .result-table th {
+    width: 70%;
+}
+
+.invoice .top-table tbody td {
+    border: none
+}
