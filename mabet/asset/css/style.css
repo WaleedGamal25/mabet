@@ -995,3 +995,32 @@ footer .copyright {
 .invoice .top-table tbody td {
     border: none
 }
+
+.request .icon {
+    display: block;
+    background: #3FAE56;
+    width: 45px;
+    height: 45px;
+    line-height: 40px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+}
+
+.request h6 {
+    font-size: 14px;
+}
+
+.request .request-btn {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 50px;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 10px !important;
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+}
